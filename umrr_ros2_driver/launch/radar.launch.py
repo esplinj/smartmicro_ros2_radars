@@ -82,8 +82,8 @@ def generate_launch_description():
     radar_model_arg = DeclareLaunchArgument(
         'radar_model',
         default_value='152',
-        choices=['152', '171'],
-        description='Radar model to load parameters for ("152" or "171").'
+        choices=['152', '171', '171_mse'],
+        description='Radar model to load parameters for ("152", "171" or "171_mse").'
     )
 
     return LaunchDescription([

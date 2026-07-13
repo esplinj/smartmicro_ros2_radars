@@ -23,18 +23,18 @@
         # umrr9f_v1_1_1, umrr9f_v2_0_0
         link_type: "can"
         # The publisher type of the sensor
-        pub_type: "target" #"mse" #"target" #mse other option - mobile speed enforcement
-        model: "umrra4_can_v1_4_0" #"umrra4_can_mse_v1_0_0" #"umrra4_can_v1_4_0" #MUST BE CAN MODEL
+        pub_type: "mse" #"mse" #"target" #mse other option - mobile speed enforcement
+        model: "umrra4_can_mse_v1_0_0" #"umrra4_can_mse_v1_0_0" #"umrra4_can_v1_4_0" #MUST BE CAN MODEL
         #  The client_id of the sensor/source, must be a unique integer.
         id: 1
         # Adapter id to which sensor is connected
         dev_id: 0
         # The interface name of the sensor
-        uifname: "umrra4_automotive" #"umrra4_mse" #"umrra4_automotive" #MUST BE AUTOMOTIVE MODEL
+        uifname: "umrra4_mse" #"umrra4_mse" #"umrra4_automotive" #MUST BE MSE MODEL
         # The major version of the interface
         uifmajorv: 1 #1 #1
         # The minor version of the interface
-        uifminorv: 4 #0 #4
+        uifminorv: 0 #0 #4
         # The pathc version of the interface
         uifpatchv: 0 #0 #0
         # The frame_id to be set to the published messages.

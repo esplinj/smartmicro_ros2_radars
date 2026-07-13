@@ -3212,7 +3212,7 @@ void SmartmicroRadarNode::CAN_objectlist_callback_umrra4_mse_v1_0_0(
     objectlist_can_umrra4_mse_v1_0_0,
   const com::types::ClientId client_id)
 {
-  std::cout << "Objectlist for umrra4_mse_can_v1_0_0" << std::endl;
+  // std::cout << "Objectlist for umrra4_mse_can_v1_0_0" << std::endl;  // temporarily silenced: per-cycle console spam
   if (!check_signal) {
     std::shared_ptr<com::master::umrra4_mse_v1_0_0::comobjectbaselist::PortHeader> port_header;
     port_header = objectlist_can_umrra4_mse_v1_0_0->GetPortHeader();
@@ -3260,7 +3260,7 @@ void SmartmicroRadarNode::CAN_targetlist_callback_umrra4_mse_v1_0_0(
     targetlist_can_umrra4_mse_v1_0_0,
   const com::types::ClientId client_id)
 {
-  std::cout << "Targetlist for umrra4_mse_can_v1_0_0" << std::endl;
+  // std::cout << "Targetlist for umrra4_mse_can_v1_0_0" << std::endl;  // temporarily silenced: per-cycle console spam
   if (!check_signal) {
     std::shared_ptr<com::master::umrra4_mse_v1_0_0::comtargetbaselist::PortHeader> port_header;
     port_header = targetlist_can_umrra4_mse_v1_0_0->GetPortHeader();
@@ -4133,7 +4133,7 @@ void SmartmicroRadarNode::CAN_targetlist_callback_umrra4_v1_4_0(
     targetlist_can_umrra4_v1_4_0,
   const com::types::ClientId client_id)
 {
-  std::cout << "CAN Targetlist for umrra4_v1_4_0" << std::endl;
+  // std::cout << "CAN Targetlist for umrra4_v1_4_0" << std::endl;  // temporarily silenced: per-cycle console spam
   if (!check_signal) {
     std::shared_ptr<com::master::umrra4_automotive_v1_4_0::comtargetbaselist::PortHeader>
       port_header;
